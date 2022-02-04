@@ -1,0 +1,142 @@
+
+.em-text{
+    color: rgb(27, 231, 153) ;
+    font-weight: 500;
+}
+nav li{
+    text-decoration: none;
+    color: #222;
+}
+nav li:hover{
+    background: #111;
+    color: #ffff;
+
+}
+
+section{
+    padding: 40px 0 40px 0;
+}
+.col-md-4{
+    margin-bottom: 20px;
+}
+.jumbotron .app-btn{
+    width: 40%;
+    margin-right: 30px;
+}
+.jumbotron{
+    background:#1b222a url(/img/site_showcase_bg.jpg) no-repeat;
+    color: #ffff;
+    height: 598px;
+    overflow: none;
+    margin: auto;
+    
+}
+
+.jumbotron h1{
+    margin-top: 60px;
+    font-size: 6rem;
+}
+.jumbotron p{
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+}
+.jumbotron .showcase-img{
+    width: 75%;
+}
+img.demo{
+    width: 100%;
+    padding: 3px;
+    border: 2px solid grey;
+    
+}
+section#feature{
+    background: #1caa98;
+    padding: 40px;
+    overflow: auto;
+    color: #ffff;
+}
+section#feature ul li{
+    font-size: 1.5em;
+    list-style: none;
+    line-height: 2em;
+}
+section#feature ul{
+    padding: 0%;
+    margin: 0%;
+
+}
+section#title-bar{
+    padding:0;
+    margin: 0%;
+    height: 80px;
+    background: #1caa98;
+    color: white;
+}
+section#title-bar h1{
+    margin-bottom: 20px;
+}
+footer{
+    background: #333;
+    color: #ffff;
+    padding: 30px 0 20px 0;
+}
+footer li{
+    float: left;
+    padding: 0 10px 0 10px;
+    list-style: none;
+    text-decoration: none;
+
+}
+footer p{
+    float: right;
+}
+footer a{
+    color: #ffff;
+}
+ /*Media Queries*/
+ 
+ @media (max-width:1200px){
+    
+         
+    }
+ 
+ @media screen and (max-width:991px){
+     .showcase-img{
+         display: none;
+     }
+ }
+ @media screen and  (min-width:768px) and (max-width:990px){
+ 
+   
+    .jumbotron h1{
+        margin-top: 10px;
+
+    }
+}
+@media screen and (max-width:768px){
+   
+    .jumbotron h1{
+        margin-top: 10px;
+
+    }
+
+}
+@media screen and (max-width:500px){
+    .jumbotron{
+      
+        text-align: center;
+    }
+    .jumbotron .app-btn{
+        width: 60%;
+        margin: 0 auto 30px auto;
+        display: block;
+    }
+    section#feature ul li{
+        font-size: 1rem;
+    }
+    footer p{
+        float: none;
+        text-align: center;
+        padding-top: 20px;
+    }
+}
