@@ -5,12 +5,17 @@
 }
 nav li{
     text-decoration: none;
-    color: #222;
+    color:#fff; 
 }
 nav li:hover{
-    background: #111;
-    color: #ffff;
+    background: #fff;
+    text-decoration: none;
+    border-radius: 20%;
+    
 
+}
+.navbar-toggler-icon{
+    color: #fff;
 }
 
 section{
